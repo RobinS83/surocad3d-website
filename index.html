@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SuRoCAD 3D — BIM Solutions van A tot Z</title>
+  <meta name="description" content="SuRoCAD 3D — gespecialiseerd BIM-tekenbureau voor Revit modellering, 2D CAD naar BIM, schets naar BIM, templates en custom families.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="SuRoCAD 3D — BIM Solutions van A tot Z">
+  <meta property="og:description" content="Gespecialiseerd BIM-tekenbureau voor Revit modellering, 2D CAD naar BIM, schets naar BIM, templates en custom families.">
+  <meta property="og:image" content="https://surocad3d.com/logo-transparent-svg.svg">
+  <meta property="og:url" content="https://surocad3d.com/">
+  <meta property="og:type" content="website">
+  <link rel="canonical" href="https://surocad3d.com/">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" href="favicon-32x32.png" type="image/png" sizes="32x32">
+  <link rel="icon" href="favicon-48x48.png" type="image/png" sizes="48x48">
+  <link rel="icon" href="logo-transparent-svg.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="progress-bar"></div>
+
+<!-- ── NAV ── -->
+<nav id="nav">
+  <a href="/" class="nav-logo">
+    <img src="logo-transparent-svg.svg" alt="SuRoCAD 3D">
+  </a>
+  <ul class="nav-links" id="nav-links">
+    <li><a href="/" class="active">Home</a></li>
+    <li><a href="/diensten">Diensten</a></li>
+    <li><a href="/over-ons">Over Ons</a></li>
+    <li><a href="/contact" class="nav-cta">Contact</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- ══════════════════════════════
+     HERO
+     ══════════════════════════════ -->
+<section class="hero" id="hero">
+  <div class="hero-photo-bg" style="background-image: url('bg-darkarch.jpg');"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-eyebrow">Gespecialiseerd BIM-tekenbureau</div>
+
+  <div class="hero-logo-wrap">
+    <img src="logo-transparent-svg.svg" alt="SuRoCAD 3D" class="hero-logo" id="hero-logo">
+  </div>
+
+  <h1 class="hero-title" id="hero-h1">
+    Van schets tot model.
+    <span class="gold">BIM van A tot Z.</span>
+  </h1>
+
+  <p class="hero-sub" id="hero-p">
+    Complete BIM-oplossingen voor architecten, aannemers en projectontwikkelaars.
+    Wij begeleiden elk stap — van ruwe schets tot opgeleverd Revit-model.
+  </p>
+
+  <div class="hero-cta" id="hero-cta">
+    <a href="/diensten" class="btn-primary">Bekijk onze diensten</a>
+    <a href="/contact" class="btn-outline">Vraag een offerte aan</a>
+  </div>
+
+  <div class="hero-kpi" id="hero-kpi">
+    <div class="hero-kpi-item">
+      <span class="kpi-value">Revit</span>
+      <div class="kpi-label">Primaire werktool</div>
+    </div>
+    <div class="hero-kpi-item">
+      <span class="kpi-value">A–Z</span>
+      <div class="kpi-label">Volledig BIM-traject</div>
+    </div>
+    <div class="hero-kpi-item">
+      <span class="kpi-value">100%</span>
+      <div class="kpi-label">Maatwerk aanpak</div>
+    </div>
+    <div class="hero-kpi-item">
+      <span class="kpi-value">8</span>
+      <div class="kpi-label">Gespecialiseerde diensten</div>
+    </div>
+  </div>
+
+  <div class="scroll-hint" onclick="document.getElementById('services').scrollIntoView({behavior:'smooth'})">
+    <div class="scroll-hint-line"></div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+     DIENSTEN OVERZICHT
+     ══════════════════════════════ -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="eyebrow">Wat wij doen</div>
+    <h2 class="section-title">Onze <span class="gold">BIM Diensten</span></h2>
+    <p class="section-lead">Van 2D-tekening of ruwe schets tot compleet BIM-model met custom families en templates — volledig op maat voor uw project. Daarnaast ontwikkelen wij eigen software en apps op maat.</p>
+
+    <div class="services-grid">
+
+      <div class="service-card">
+        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="3" y="3" width="18" height="18" rx="2"/>
+          <path d="M3 9h18M9 21V9"/>
+        </svg>
+        <h3>2D CAD naar BIM</h3>
+        <p>Bestaande DWG of PDF-tekeningen worden omgezet naar volledig informatierijke Revit BIM-modellen, direct inzetbaar in uw workflow.</p>
+        <span class="card-tag">AutoCAD → Revit</span>
+      </div>
+
+      <div class="service-card">
+        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+          <path d="M2 17l10 5 10-5M2 12l10 5 10-5"/>
+        </svg>
+        <h3>Schets naar BIM</h3>
+        <p>Van ruwe schets of conceptfase tot volledig uitgewerkt 3D Revit-model. Ideaal om snel van idee naar een werkbaar digitaal model te gaan.</p>
+        <span class="card-tag">Concept → 3D Model</span>
+      </div>
+
+      <div class="service-card">
+        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/>
+          <path d="M15.54 8.46a5 5 0 010 7.07M8.46 8.46a5 5 0 000 7.07"/>
+        </svg>
+        <h3>BIM Advies</h3>
+        <p>Strategisch en praktisch advies over BIM-implementatie, workflows en standaarden — volledig afgestemd op uw organisatie en projectdoelen.</p>
+        <span class="card-tag">Strategie & Implementatie</span>
+      </div>
+
+      <div class="service-card">
+        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/>
+          <path d="M14 2v6h6M16 13H8M16 17H8M10 9H8"/>
+        </svg>
+        <h3>Revit Templates</h3>
+        <p>Maatwerkprojecttemplates volledig afgestemd op uw bedrijfsstandaarden, NEN-normen, annotatiestijlen en tekenafspraken.</p>
+        <span class="card-tag">Bedrijfsstandaard</span>
+      </div>
+
+      <div class="service-card">
+        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <rect x="2" y="3" width="9" height="9" rx="1"/>
+          <rect x="13" y="3" width="9" height="9" rx="1"/>
+          <rect x="13" y="13" width="9" height="9" rx="1"/>
+          <rect x="2" y="13" width="9" height="9" rx="1"/>
+        </svg>
+        <h3>Families op Maat</h3>
+        <p>Specifieke Revit-families voor uw projecten — van standaard bouwcomponenten tot complexe parametrische objecten met volledige parameters.</p>
+        <span class="card-tag">Parametrische objecten</span>
+      </div>
+
+      <div class="service-card">
+        <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+          <polyline points="2 17 12 22 22 17"/>
+          <polyline points="2 12 12 17 22 12"/>
+        </svg>
+        <h3>Volledig BIM Traject</h3>
+        <p>Complete ontzorging van intake en modellering tot oplevering, coördinatie en overdracht van het definitieve model. U behoudt de regie.</p>
+        <span class="card-tag">Van A tot Z</span>
+      </div>
+
+      <div class="service-card" style="grid-column: 1 / -1; display:grid; grid-template-columns:auto 1fr; align-items:center; gap:2rem; text-align:left;">
+        <svg class="card-icon" style="margin:0; width:52px; height:52px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <path d="M2 12h4M18 12h4M12 2v4M12 18v4"/>
+          <circle cx="12" cy="12" r="3"/>
+          <path d="M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+        </svg>
+        <div>
+          <h3 style="margin-bottom:.5rem;">Pointcloud / Scan to BIM</h3>
+          <p style="max-width:680px;">Bestaande gebouwen of objecten omzetten naar een nauwkeurig as-built Revit-model op basis van 3D-laserscandata (pointcloud). Ideaal voor renovaties, monumenten en herbestemmingen waar geen betrouwbare tekeningen beschikbaar zijn.</p>
+          <span class="card-tag">3D Laserscanning → As-Built BIM</span>
+        </div>
+      </div>
+
+      <div class="service-card" style="grid-column: 1 / -1; display:grid; grid-template-columns:auto 1fr; align-items:center; gap:2rem; text-align:left;">
+        <svg class="card-icon" style="margin:0; width:52px; height:52px;" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <polyline points="16 18 22 12 16 6"/>
+          <polyline points="8 6 2 12 8 18"/>
+          <line x1="13" y1="4" x2="11" y2="20"/>
+        </svg>
+        <div>
+          <h3 style="margin-bottom:.5rem;">Software op Maat &amp; App-ontwikkeling</h3>
+          <p style="max-width:680px;">SuRoCAD 3D bouwt ook eigen software. Onze referentie is <strong style="color:var(--gold-light); font-weight:600;">Statify</strong> — een zelf ontwikkeld en gelanceerd SaaS-platform voor wedstrijdtracking en spelersopvolging, beschikbaar als web-app en in de App Store. Van concept en ontwerp tot bouw, lancering en onderhoud: het volledige traject in eigen beheer.</p>
+          <span class="card-tag">Concept → Gelanceerd product</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div style="text-align:center; margin-top:3rem;">
+      <a href="/diensten" class="btn-outline">Alle diensten bekijken &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+     STATS BAND
+     ══════════════════════════════ -->
+<div class="stats-band">
+  <div class="stats-row">
+    <div class="stat-item">
+      <span class="stat-num" data-target="100">100</span><span class="stat-num" style="font-size:2rem">%</span>
+      <div class="stat-desc">Revit-gebaseerd</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">7</span>
+      <div class="stat-desc">Specialisaties</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">A–Z</span>
+      <div class="stat-desc">Volledig traject</div>
+    </div>
+    <div class="stat-item">
+      <span class="stat-num">BE</span>
+      <div class="stat-desc">Beringen, België</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     PHOTO BAND — SFEER
+     ══════════════════════════════ -->
+<div class="photo-band">
+  <div class="photo-band-bg" style="background-image: linear-gradient(rgba(7,7,7,.78),rgba(7,7,7,.78)), url('bg-concrete.jpg'); background-size:cover; background-position:center;"></div>
+  <div class="photo-band-content">
+    <div style="max-width:680px;">
+      <div class="eyebrow">Onze aanpak</div>
+      <h2 class="section-title" style="margin-bottom:1.25rem;">Verder dan <span class="gold">uitvoering.</span></h2>
+      <p style="color:var(--warm-grey); font-size:1.1rem; line-height:1.85; margin-bottom:2.5rem;">Bij SuRoCAD 3D gaan we verder dan uitvoering. Wij analyseren uw vraagstuk, denken mee over de optimale BIM-aanpak en leveren een model dat direct bruikbaar is — op elk detailniveau en voor elke discipline.</p>
+      <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+        <a href="/over-ons" class="btn-primary">Over SuRoCAD 3D</a>
+        <a href="/contact" class="btn-outline">Stuur een bericht</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════
+     WHY US + PROCESS
+     ══════════════════════════════ -->
+<section class="section section-dark" id="why">
+  <div class="container">
+    <div class="why-grid">
+
+      <div>
+        <div class="eyebrow">Waarom SuRoCAD 3D</div>
+        <h2 class="section-title">Vakmanschap in <span class="gold">elke lijn</span></h2>
+        <div class="divider"></div>
+
+        <div class="feature-list">
+          <div class="feature">
+            <div class="feature-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div>
+              <h4>Revit-specialist</h4>
+              <p>Diepgaande kennis van Autodesk Revit — van conceptfase tot volledig uitgewerkt uitvoeringsmodel, voor alle disciplines.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h4>Snelle doorlooptijd</h4>
+              <p>Gestroomlijnde werkprocessen zorgen voor tijdige oplevering — zonder in te leveren op kwaliteit of detail.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div>
+              <h4>Kwaliteitsborging</h4>
+              <p>Elk model wordt gecontroleerd op consistentie, norm-conformiteit en bruikbaarheid vóór oplevering.</p>
+            </div>
+          </div>
+          <div class="feature">
+            <div class="feature-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+            </div>
+            <div>
+              <h4>Volledig maatwerk</h4>
+              <p>Geen standaardoplossingen. Aanpak, detailniveau en uitvoering worden volledig afgestemd op úw project en wensen.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <div class="process-card">
+          <div class="process-label">Ons werkproces — 4 stappen</div>
+          <div class="process-step">
+            <div class="step-num">1</div>
+            <div class="step-text">
+              <h5>Intake &amp; Analyse</h5>
+              <p>Grondig gesprek over uw project, bestaande tekeningen en BIM-vereisten.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">2</div>
+            <div class="step-text">
+              <h5>Modellering in Revit</h5>
+              <p>Opbouw van het BIM-model volgens afgesproken standaarden, normen en projectspecificaties.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">3</div>
+            <div class="step-text">
+              <h5>Review &amp; Terugkoppeling</h5>
+              <p>Kwaliteitscontrole en tussentijdse afstemming met uw team — u blijft betrokken in elk stap.</p>
+            </div>
+          </div>
+          <div class="process-step">
+            <div class="step-num">4</div>
+            <div class="step-text">
+              <h5>Oplevering &amp; Overdracht</h5>
+              <p>Definitief model, documentatie en begeleiding bij overdracht inclusief nazorg indien gewenst.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════
+     CTA BANNER
+     ══════════════════════════════ -->
+<section class="cta-banner">
+  <div class="container">
+    <div class="eyebrow">Klaar om te starten?</div>
+    <h2 class="section-title" style="color:#000; margin-bottom:1rem;">Laat uw BIM-project door ons verzorgen</h2>
+    <p class="section-lead" style="color:rgba(0,0,0,.65);">Neem vrijblijvend contact op voor een kennismakingsgesprek of directe offerte. Wij reageren binnen 1 werkdag.</p>
+    <div style="display:flex; gap:1rem; flex-wrap:wrap;">
+      <a href="/contact" class="btn-dark">Vraag een offerte aan</a>
+      <a href="/diensten" class="btn-outline" style="border-color:rgba(0,0,0,.45); color:#000;">Meer over onze diensten</a>
+    </div>
+  </div>
+</section>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="f-logo"><img src="logo-transparent-svg.svg" alt="SuRoCAD 3D"></div>
+      <div class="f-tag">BIM Solutions</div>
+      <p>Gespecialiseerd BIM-tekenbureau voor complete Revit-modellering, maatwerktemplates en custom families.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Diensten</h4>
+      <ul>
+        <li><a href="/diensten">2D CAD naar BIM</a></li>
+        <li><a href="/diensten">Schets naar BIM</a></li>
+        <li><a href="/diensten">BIM Advies</a></li>
+        <li><a href="/diensten">Revit Templates</a></li>
+        <li><a href="/diensten">Families op Maat</a></li>
+        <li><a href="/diensten">Scan to BIM</a></li>
+        <li><a href="/diensten">Software op Maat</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Navigatie</h4>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/diensten">Diensten</a></li>
+        <li><a href="/over-ons">Over Ons</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>&copy; 2025 SuRoCAD 3D &mdash; Alle rechten voorbehouden.</span>
+    <span>BIM Solutions &middot; Revit Specialist</span>
+  </div>
+</footer>
+
+<!-- ── LIBRARIES ── -->
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.2/dist/ScrollTrigger.min.js"></script>
+
+<script>
+
+/* ── GSAP ── */
+gsap.registerPlugin(ScrollTrigger);
+
+const tl = gsap.timeline({defaults:{ease:'power3.out'}});
+tl.from('#hero-logo',  {duration:1.5, y:-50, opacity:0, scale:.8, ease:'elastic.out(1,.55)'}, .2)
+  .from('.hero-eyebrow',{duration:.9, opacity:0, y:20}, .5)
+  .from('#hero-h1',    {duration:1.1, y:60, opacity:0}, .7)
+  .from('#hero-p',     {duration:.9,  y:35, opacity:0}, .95)
+  .from('#hero-cta',   {duration:.8,  y:25, opacity:0}, 1.15)
+  .from('#hero-kpi .hero-kpi-item', {duration:.7, y:20, opacity:0, stagger:.12}, 1.3)
+  .from('.scroll-hint',{duration:1,   y:15, opacity:0}, 1.65);
+
+// Section labels + titles
+document.querySelectorAll('.eyebrow,.section-title,.section-lead').forEach(el=>{
+  if(el.closest('.hero')||el.closest('.cta-banner')||el.closest('.photo-band')) return;
+  gsap.from(el,{ scrollTrigger:{trigger:el,start:'top 88%'}, duration:.85, y:45, opacity:0, ease:'power3.out' });
+});
+
+// Service cards 3D stagger
+gsap.from('.service-card',{
+  scrollTrigger:{trigger:'.services-grid',start:'top 80%'},
+  duration:.75, y:80, opacity:0, rotateX:22, stagger:.09,
+  ease:'power3.out', transformOrigin:'center bottom', clearProps:'transform',
+});
+
+// Stats band
+gsap.from('.stat-item',{
+  scrollTrigger:{trigger:'.stats-band',start:'top 85%'},
+  duration:.7, y:30, opacity:0, stagger:.12, ease:'power3.out',
+});
+
+// Photo band
+gsap.from('.photo-band-content > div',{
+  scrollTrigger:{trigger:'.photo-band',start:'top 78%'},
+  duration:1.1, x:-70, opacity:0, ease:'power3.out',
+});
+
+// Why left/right
+gsap.from('#why .why-grid > div:first-child',{
+  scrollTrigger:{trigger:'#why',start:'top 78%'},
+  duration:1.1, x:-80, opacity:0, ease:'power3.out',
+});
+gsap.from('#why .why-grid > div:last-child',{
+  scrollTrigger:{trigger:'#why',start:'top 78%'},
+  duration:1.1, x:80, opacity:0, ease:'power3.out', delay:.08,
+});
+
+// Features stagger
+gsap.from('.feature',{
+  scrollTrigger:{trigger:'.feature-list',start:'top 80%'},
+  duration:.6, y:30, opacity:0, stagger:.12, ease:'power3.out',
+});
+
+// Process steps
+gsap.from('.process-step',{
+  scrollTrigger:{trigger:'.process-card',start:'top 82%'},
+  duration:.5, x:30, opacity:0, stagger:.1, ease:'power2.out',
+});
+
+// CTA
+gsap.from('.cta-banner .container > *',{
+  scrollTrigger:{trigger:'.cta-banner',start:'top 82%'},
+  duration:.8, y:40, opacity:0, stagger:.12, ease:'power3.out',
+});
+
+/* ── 3D Card tilt ── */
+document.querySelectorAll('.service-card').forEach(card=>{
+  card.addEventListener('mousemove',e=>{
+    const r=card.getBoundingClientRect();
+    const rx=((e.clientY-r.top-r.height/2)/r.height)*-14;
+    const ry=((e.clientX-r.left-r.width/2)/r.width)*14;
+    card.style.transform=`perspective(900px) rotateX(${rx}deg) rotateY(${ry}deg) translateZ(14px)`;
+  });
+  card.addEventListener('mouseleave',()=>{
+    gsap.to(card,{duration:.7,rotateX:0,rotateY:0,z:0,ease:'elastic.out(1,.5)',clearProps:'transform'});
+  });
+});
+
+/* ── Scroll progress ── */
+window.addEventListener('scroll',()=>{
+  const max=document.body.scrollHeight-innerHeight;
+  document.getElementById('progress-bar').style.width=(window.pageYOffset/max*100)+'%';
+},{passive:true});
+
+/* ── Nav scroll style ── */
+window.addEventListener('scroll',()=>{
+  document.getElementById('nav').classList.toggle('scrolled', window.pageYOffset>60);
+},{passive:true});
+
+/* ── Hamburger ── */
+const hbg=document.getElementById('hamburger'), nl=document.getElementById('nav-links');
+hbg.addEventListener('click',()=>nl.classList.toggle('open'));
+document.querySelectorAll('.nav-links a').forEach(l=>l.addEventListener('click',()=>nl.classList.remove('open')));
+</script>
+</body>
+</html>
