@@ -643,7 +643,7 @@ footer {
 }
 .ceo-photo-wrap { position:relative; }
 .ceo-photo {
-  width:100%; border-radius:12px;
+  width:100%; height:auto; border-radius:12px;
   filter: grayscale(8%) contrast(1.04);
   box-shadow: 0 40px 80px rgba(0,0,0,.6), 0 0 0 1px var(--border);
   display:block;
